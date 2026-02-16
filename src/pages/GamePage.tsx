@@ -175,8 +175,17 @@ const GamePage = () => {
       </main>
 
       <footer className="border-t border-border/50 py-8">
-        <div className="max-w-6xl mx-auto px-6 text-center text-sm text-muted-foreground">
-          © 2026 GameVault. Все права защищены.
+        <div className="max-w-6xl mx-auto px-6 flex flex-col items-center gap-3 text-sm text-muted-foreground">
+          <a
+            href="https://t.me/DalbaebGame"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 hover:text-foreground transition-colors"
+          >
+            <Icon name="Send" size={16} />
+            Telegram-канал
+          </a>
+          <span>© 2026 GameVault. Все права защищены.</span>
         </div>
       </footer>
     </div>
